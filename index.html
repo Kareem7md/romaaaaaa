@@ -55,8 +55,8 @@
 
   // صورة بتظهر
   const img = document.createElement("img");
-  img.style.width = "500px";
-  img.style.marginTop = "200px";
+  img.style.width = "250px";
+  img.style.marginTop = "20px";
   document.querySelector(".card").appendChild(img);
 
   noBtn.addEventListener("mouseover", () => {
@@ -68,16 +68,15 @@
     noBtn.style.top = y + "px";
 
     if (noCount === 5) {
-      img.src = "no.png";
-      img.src = "noo.png";
+      img.src = "no.png", "noo.png";
     }
   });
 
   yesBtn.addEventListener("click", () => {
-    img.src = "yes.png";
-    img.src = "yess.png";
+    img.src = "yes.png", "yess.png";
   });
 </script>
 </body>
 </html>
+
 
